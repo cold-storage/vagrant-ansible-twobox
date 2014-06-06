@@ -1,0 +1,4 @@
+---
+- name: add git core ppa
+  apt_repository:
+    repo="ppa:git-core/ppa"

@@ -1,0 +1,6 @@
+---
+- hosts: all
+  user: "{{ remote_user }}"
+  sudo: yes
+  roles:
+    - ping
